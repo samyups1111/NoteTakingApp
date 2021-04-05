@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="notes">Notes</string>
+    <string name="title">Title</string>
+    <string name="date">date</string>
+    <string name="enter_notes">Enter Notes</string>
+    <string name="message">Message</string>
+    <string name="id">ID</string>
+    <string name="_0">0</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="new_note">New Note</string>
+    <string name="home">Home</string>
+</resources>
