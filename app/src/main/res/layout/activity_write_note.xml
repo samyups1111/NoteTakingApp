@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightGrey"
+    android:background="@drawable/sea"
     tools:context=".ui.WriteNoteActivity">
 
     <EditText
@@ -16,7 +16,7 @@
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="30sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_margin="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/write_id_edittext"
@@ -27,7 +27,6 @@
         android:id="@+id/write_id_edittext"
         android:layout_width="0dp"
         android:layout_height="0dp"
-
         android:text="@string/_0"
         app:layout_constraintStart_toEndOf="@id/write_title_edittext"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +41,7 @@
         android:layout_marginTop="30dp"
         android:paddingTop="25dp"
         android:gravity="top"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:hint="@string/enter_notes"
         android:text=""
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation_menu"
