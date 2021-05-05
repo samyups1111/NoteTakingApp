@@ -1,4 +1,4 @@
-package com.example.notes;
+package sam.samyups1111.notes;
 
 import android.content.Context;
 

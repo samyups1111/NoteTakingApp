@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.notes">
+    package="sam.samyups1111.notes">
 
     <application
-        android:name=".util.MainApplication"
+        android:name="sam.samyups1111.notes.util.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_narwhal"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_narwhal_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Notes">
-        <activity android:name=".ui.WriteNoteActivity"></activity>
-        <activity android:name=".ui.MainActivity">
+        <activity android:name="sam.samyups1111.notes.ui.WriteNoteActivity"></activity>
+        <activity android:name="sam.samyups1111.notes.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

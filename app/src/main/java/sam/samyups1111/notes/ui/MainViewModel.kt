@@ -1,8 +1,8 @@
-package com.example.notes.ui
+package sam.samyups1111.notes.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.example.notes.model.Note
+import sam.samyups1111.notes.model.Note
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
@@ -15,7 +15,7 @@ class MainViewModel(private val mainRepository: MainRepository): ViewModel() {
         mainRepository.addNote(note)
     }
 
-    fun delete(note:Note) = viewModelScope.launch {
+    fun delete(note: Note) = viewModelScope.launch {
         mainRepository.delete(note)
     }
 

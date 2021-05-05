@@ -1,8 +1,8 @@
-package com.example.notes.ui
+package sam.samyups1111.notes.ui
 
 import androidx.annotation.WorkerThread
-import com.example.notes.model.MainDao
-import com.example.notes.model.Note
+import sam.samyups1111.notes.model.MainDao
+import sam.samyups1111.notes.model.Note
 import kotlinx.coroutines.flow.Flow
 
 class MainRepository(private val mainDao: MainDao) {
@@ -17,7 +17,7 @@ class MainRepository(private val mainDao: MainDao) {
 
     @Suppress("RedundantSuspendModifier")
     @WorkerThread
-    suspend fun delete(note:Note) {
+    suspend fun delete(note: Note) {
         mainDao.delete(note)
     }
 

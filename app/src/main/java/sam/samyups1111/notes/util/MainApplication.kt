@@ -1,8 +1,8 @@
-package com.example.notes.util
+package sam.samyups1111.notes.util
 
 import android.app.Application
-import com.example.notes.model.MainDatabase
-import com.example.notes.ui.MainRepository
+import sam.samyups1111.notes.model.MainDatabase
+import sam.samyups1111.notes.ui.MainRepository
 
 class MainApplication: Application() {
 

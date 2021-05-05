@@ -1,10 +1,10 @@
-package com.example.notes.util
+package sam.samyups1111.notes.util
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.notes.R
-import com.example.notes.model.Note
+import sam.samyups1111.notes.R
+import sam.samyups1111.notes.model.Note
 
 class MainRecyclerAdapter: RecyclerView.Adapter<MainViewHolder>() {
 

@@ -1,4 +1,4 @@
-package com.example.notes.model
+package sam.samyups1111.notes.model
 
 import android.content.Context
 import androidx.room.Database

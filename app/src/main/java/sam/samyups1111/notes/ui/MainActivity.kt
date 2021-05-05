@@ -1,4 +1,4 @@
-package com.example.notes.ui
+package sam.samyups1111.notes.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,10 +8,10 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.notes.R
-import com.example.notes.util.MainApplication
-import com.example.notes.util.MainRecyclerAdapter
-import com.example.notes.util.MainViewModelFactory
+import sam.samyups1111.notes.R
+import sam.samyups1111.notes.util.MainApplication
+import sam.samyups1111.notes.util.MainRecyclerAdapter
+import sam.samyups1111.notes.util.MainViewModelFactory
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {

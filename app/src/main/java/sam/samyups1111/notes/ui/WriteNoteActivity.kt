@@ -1,4 +1,4 @@
-package com.example.notes.ui
+package sam.samyups1111.notes.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,10 +6,10 @@ import android.os.Bundle
 import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.viewModels
-import com.example.notes.R
-import com.example.notes.model.Note
-import com.example.notes.util.MainApplication
-import com.example.notes.util.MainViewModelFactory
+import sam.samyups1111.notes.R
+import sam.samyups1111.notes.model.Note
+import sam.samyups1111.notes.util.MainApplication
+import sam.samyups1111.notes.util.MainViewModelFactory
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class WriteNoteActivity : AppCompatActivity() {

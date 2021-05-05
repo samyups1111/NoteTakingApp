@@ -1,4 +1,4 @@
-package com.example.notes.model
+package sam.samyups1111.notes.model
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow
@@ -13,7 +13,7 @@ interface MainDao {
     suspend fun addNote(note: Note)
 
     @Delete
-    suspend fun delete(note:Note)
+    suspend fun delete(note: Note)
 
     @Update
     suspend fun updateNote(note: Note)

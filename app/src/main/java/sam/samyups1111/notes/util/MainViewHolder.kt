@@ -1,12 +1,12 @@
-package com.example.notes.util
+package sam.samyups1111.notes.util
 
 import android.content.Intent
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.notes.R
-import com.example.notes.model.Note
-import com.example.notes.ui.WriteNoteActivity
+import sam.samyups1111.notes.R
+import sam.samyups1111.notes.model.Note
+import sam.samyups1111.notes.ui.WriteNoteActivity
 
 class MainViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
 

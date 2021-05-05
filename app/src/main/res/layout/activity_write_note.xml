@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sea"
-    tools:context=".ui.WriteNoteActivity">
+    tools:context="sam.samyups1111.notes.ui.WriteNoteActivity">
 
     <EditText
         android:id="@+id/write_title_edittext"
