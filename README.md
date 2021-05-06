@@ -1,6 +1,11 @@
 # Narwhalicious Notes
-Get Now At the [Google Play Store](https://play.google.com/store/apps/details?id=sam.samyups1111.notes)
-### Simple Notetaking app using MVVM architecture and Room database.
+Get Now At The [Google Play Store](https://play.google.com/store/apps/details?id=sam.samyups1111.notes)
 
 <img src="https://github.com/samyups1111/NoteTakingApp/blob/AddReadmePics/app/src/main/res/mipmap-hdpi/main.png" height="600" width="300"/>
+
+#### Simple, Narwhal-themed, Note-taking app using MVVM architecture and Room database.
+#### The user is able to save notes for a later time.
+
+
+
 <img src="https://github.com/samyups1111/NoteTakingApp/blob/AddReadmePics/app/src/main/res/mipmap-hdpi/enter_notes.png" height="600" width="300"/>
